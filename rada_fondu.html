@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Рада Фонду (last version)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="NBU Pension Fund ofiicial site"	/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/media.css" />
+	<script>
+		function valid (form) {
+			var mail = mailForm.mail.value;
+			var phone = phoneForm.phone.value;
+			if (mail == "" || mail == " ") alert("Вы не ввели адрес электронной почты")
+				else 
+					if (mail.indexOf("@")==-1) alert ("Вы ввели некорректный адрес электронной почты");
+}
+	function validPhone (form) {
+			var phone = phoneForm.phone.value;
+			if (phone == "" || phone ==" ") alert ("Вы не ввели номер телефона");
+			for (var i = 0; i < phone.length; i++) {
+				if (phone.charCodeAt(i)<48 || phone.charCodeAt(i)>57) {
+					alert("Номер телефона не корректен");
+					break;
+				} 
+			}
+	}
+	</script>
+</head>
+<body>
+	<section class="header">
+		<div class="container-fluid topic">
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-5">
+					<div class="logo">
+						<img src="assets/img/nbu_logo.jpg" alt="">
+						<span>корпоративний недержавний пенсійний фонд національного банку україни</span>
+						
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="styleSelect"> 
+						<form action="">
+							<select>
+								<option selected value="0"> Мені необхідно </option>
+								<option value="1">"Отримати виписку з рахунку"</option>
+								<option value="2">"Повідомити про зміну персональних даних"</option>
+								<option value="3">Розпочати отримувати виплату пенсії</option>
+								<option value="4">Укласти з фондом контракт особисто</option>
+								<option value="5">Повідомити про змыну персональних даних</option>
+								<option value="6">Повыдомити про змыну персональних даних</option>
+								<option value="7">Повыдомити про змыну персональних даних</option>
+							</select>
+						</form>
+					</div>
+					
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+	</section>
+	<nav>
+		<div id="navcontainer">
+			<div id="containermenu">
+				<ul id="mainmenuUl">
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-users fa-5x" aria-hidden="true"></i>
+								<span>Про фонд</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-money fa-5x" aria-hidden="true"></i>
+								<span>Накопичення</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-paypal fa-5x" aria-hidden="true"></i>
+								<span>Виплати</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-file-text fa-5x" aria-hidden="true"></i>
+								<span>Заяви/договори</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-building-o fa-5x" aria-hidden="true"></i>
+								<span>Звітність</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-book fa-5x" aria-hidden="true"></i>
+								<span>База знань</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-question-circle-o fa-5x" aria-hidden="true"></i>
+								<span>Питання</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-calculator fa-5x" aria-hidden="true"></i>
+								<span>Калькулятор</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-address-book-o fa-5x" aria-hidden="true"></i>
+								<span>Контакти</span>
+							</div>
+						</a>
+					</li>
+					<li class="mainmenuli">
+						<a class="amenu" href="">
+							<div>
+								<i class="fa fa-user fa-5x" aria-hidden="true"></i>
+								<span>Кабінет</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- <div></div> -->
+	<section class="body">
+		<div class="container-fluid bodysection">
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+					<h5>Рада Фонду</h5>
+					<ul class="side_menu">
+						<li><a href="#">Рада Фонду</a> </li>
+						<li><a href="#">Стратегія Фонду</a> </li>
+						<li><a href="#">Історія Фонду</a> </li>
+						<li><a href="#">Хто обслуговує Фонд</a> </li>
+						<li><a href="#">Інвестиційна політика Фонду</a> </li>
+						<li><a href="#">Новини</a> </li>
+					</ul>
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Smoliy.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ</h5>
+							<h4>СМОЛІЙ ЯКІВ ВАСИЛЬОВИЧ</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-smoliy" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-smoliy" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+					<!-- <h5></h5>
+					<ul class="side_menu">
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+					</ul>
+ -->
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Churiy.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ</h5>
+							<h4>ЧУРІЙ ОЛЕГ ЄВГЕНОВИЧ</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-churiy" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-churiy" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+					<!-- <h5></h5>
+					<ul class="side_menu">
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+						<li><a href="#"></a> </li>
+					</ul>
+ -->
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Boryisenko.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ</h5>
+							<h4>БОРИСЕНКО РОМАН МИКОЛАЙОВИЧ</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-boryisenko" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-boryisenko" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Lucasevitch.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ</h5>
+							<h4>ЛУКАСЕВИЧ БОГДАН ВОЛОДИМИРОВИЧ</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-lucasevitch" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-lucasevitch" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Usacheva.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ</h5>
+							<h4>УСАЧОВА ТЕТЯНА ВІТАЛІЇВНА</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-usacheva" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-usacheva" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Usacheva.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ</h5>
+							<h4>БУРМІСТРОВА ІРИНА ОЛЕКСАНДРІВНА</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-burmistrova" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-burmistrova" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1 col-sm-offset-2" >
+				</div>
+				<div class="col-sm-9" id="left_side_menu">
+					<div class="row" id="members">
+						<div class="col-sm-2">
+							<div >
+								<img id="smoliy" src="assets/img/Usacheva.png" alt="">
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<h5>ЧЛЕН РАДИ ФОНДУ, СЕКРЕТАР ФОНДУ</h5>
+							<h4>КОЗАЧЕНКО СЕРГІЙ ОЛЕКСАНДРОВИЧ</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita necessitatibus dignissimos debitis! Accusamus illum ut facilis, ipsum voluptates maxime recusandae facere pariatur placeat, et libero ducimus aliquam inventore, iure voluptas consequuntur animi numquam labore neque minus. Molestias molestiae laborum, iure, quod iusto quis ipsam ipsa distinctio ab quo at vitae.
+							</p>
+							<button class="btn  btn-info" data-toggle="collapse" data-target="#hide-me-kozachenko" id = "radaButton">Біографія
+							</button>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-3 popup-block">
+					<div id="hide-me-kozachenko" class="collapse">
+								<div class="greenline" ></div>
+								<span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officia aliquam, assumenda possimus quod quisquam, cupiditate laudantium unde amet non quas debitis quasi, recusandae cum itaque tempore inventore voluptatum saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quaerat tenetur dicta at sequi distinctio veniam sed molestias dolore eos, velit, quidem odio quas expedita illo aliquam repellendus minus, iusto impedit cum natus accusantium aliquid deserunt asperiores! Enim praesentium, in voluptatum magni laboriosam, officiis obcaecati optio et accusamus, ipsam, veritatis.
+								</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		<section class="footer">
+		<div class="container-fluid topbottomsection">
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-2 bottomsection"> 
+					<h5>Корпоративний недержавний пенсійний фонд Національного банку України</h5>
+					код ЄДРПОУ 34880663 <span><a href="">свідоцтво</a></span><br>
+					<span><a href="">м. Київ пл. Контрактова, 2-Б,</a></span><br>
+					під'їзд №1, 4 поверх<br>
+					e-mail: <span><a href="mailto:"> knpf@bank.gov.ua</a></span><br>
+					гаряча лінія <span>0 800 505 180</span><br>
+					<b>Графік прийому</b><br>
+					вівторок, четвер, з 14:00 до 16:00 <br>
+					<b>Вихідні дні:</b> субота, неділя<br>
+					<b>Робочі години:</b><br>
+					<b>Понеділок-четвер</b> з 9:00 до 18:00 <br>
+					<b>П'ятниця</b> з 9:00 до 16:45 <br>
+					перерва з 13:00 до 13:45
+				</div>
+				<div class="col-sm-2 bottomsection"> 
+					<h5>Адміністрування, управління та зберігання активів здійснює Національний банк України</h5>
+					 код ЄДРПОУ 00032106<br>
+					 код за КОАТУУ 8038200000<br><br>
+					 <b>Ліцензії</b>
+				</div>
+				<div class="col-sm-2 bottomsection">
+						<span> 
+							<a href="" class="qwicktransfer">Рада Фонду</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Стратегія Фонду</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Хто обслуговує Фонд</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Куди інвестовані кошти</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Як формується ваша пенсія</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Як збільшити свої накопичення</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Як отримати кошти з мого рахунку</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Розрахувати майбутню пенсію</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Бланк зая/договорів</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Повідомити про зміну персональних даних</a>
+						</span><br>
+						<span> 
+							<a href="" class="qwicktransfer">Часті питання</a>
+						</span> 
+				</div>
+				<div class="col-sm-2 bottomsection"> 
+					<h5>Стежте за новинами фонду</h5>
+					<div>
+						<form action="" method="post" name="news" id="mailForm">
+							<input id="mailinput" type="text" placeholder="електронна адреса" name="mail"> 
+							<button id="subscribeNews" onclick="valid(document.getElementById('mailForm'))">
+								<span>Стежити за новинами</span>
+							</button>
+						</form>
+					</div>
+					<div class="smsreciveHelper">
+						<div id="i">
+							<span id="textSMS">Отримувати SMS про стан рахунку</span>
+						</div>
+						
+						<a href="#main"> 
+							<div id="popupImg">
+							 i
+							</div>
+						</a>
+						<a href="#" id="main">
+							<div id="informSMS">
+								<p> Послуга SMS-інформування для учасників є безкоштовною. SMS надсилається 1 раз на місяць та містить інформацію про стан рахунку учасника
+								</p>
+							</div>
+						</a>
+					</div>
+					<div>
+						<form action="" method="post" id="phoneForm">
+							<input id="phoneinput" type="text" placeholder="+380(--)111-11-11" name="phone"> 
+							<button id="subscribeSMS" onclick="validPhone(document.getElementById('phoneForm'))"">
+								<span>Отримувати SMS</span>
+							</button>
+						</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	<script src="assets/js/jquery-2.1.4.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+body{
+	font-size: 16px;
+	min-width: 320px;
+	/*font-family: "viper", sans-serif;*/
+}
+/* HEADER*/
+.topic{
+	background: linear-gradient(to right, white 40%, #F5BCA9 100%); 
+}
+.styleSelect select{
+	font-style: italic;
+	font-weight: 700;
+	background: transparent;
+	background-color: #FAFAFA;
+   	width: 220px;
+   	padding-left: 15px;
+   	font-size: 13px;
+   	border: 1.5px solid black;
+   	height: 34px; 
+}
+
+.styleSelect {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+.logo span{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	color: #0A2A0A;
+	padding-top: 25px;
+}
+
+.logo img{
+	height: 125px;
+	/*width: 100px;*/
+}	
+.logo {
+	display: flex;
+}
+/* END HEADER */
+
+/*NAV MENU*/
+#navcontainer{
+	position: relative;
+	background-color: #0B3B0B;
+	height: 130px;
+}
+#containermenu{
+	position: relative;
+}
+ul#mainmenuUl{
+	position: absolute;
+	left: 250px;
+}
+li.mainmenuli{
+	display: inline-block;
+
+}
+li.mainmenuli div{
+	margin-top: 15px; 
+	text-align: center;
+	padding: 0px 7px 0px;
+	color: white;
+}	
+li.mainmenuli div:hover{
+	background-color: white;
+	color: #0B3B0B;
+}
+li.mainmenuli div span{
+	/*color: white;*/
+	font-weight: 500;
+	display: block;
+	margin-top: 5px;
+}
+.amenu{
+	text-decoration: none;
+}
+/*END NAV MENU*/
+/* BODY SECTION */
+.bodysection{
+	padding:0px 0px 0px;
+}
+/* END BODY SECTION */
+/*-----------------------------------------------------------------
+/* RADA FONDU */
+#left_side_menu{
+	border-left: 1px solid #A4A4A4;
+}
+ul.side_menu{
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+ul.side_menu a{
+	font-size: 13px;
+	color: black;
+}
+div#members{
+	border-bottom: 1px solid #A4A4A4;
+	padding: 20px 10px;
+	margin: 0px 0px 20px 10px;
+}
+div.greenline{
+	border-bottom: 2px solid #0c0;
+	margin-top: 10px;
+}
+#smoliy{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.popup-block{
+	border-left: 1px solid #A4A4A4;
+}
+button#radaButton{
+	background-color: white;
+	text-decoration: underline;
+	color: #0A2A0A;
+	border: none;
+}
+
+/* END RADA FONDU */
+/*-----------------------------------------------------------
+/* FOOTER */
+.footersection{
+	display: inline-flex;
+}
+.topbottomsection{
+	border-top: 4px solid #0c0;
+}
+.bottomsection{
+	padding: 30px 0px;
+	font-size: 13px;
+}
+
+.bottomsection span{
+	padding-left: 0px;
+	margin: 0px;
+	font-size: 13px;
+	text-decoration: underline;
+	 
+	
+}
+.bottomsection h5 {
+	margin-top: 0px;
+}
+.bottomsection a{
+	color:#088A4B;
+	
+}
+
+#mailinput {
+	height: 50px;
+	width: 250px;
+	padding-left: 20px;
+	color: #6E6E6E;
+	border: 1px solid #E6E6E6;
+}
+#phoneinput{
+	height: 50px;
+	width: 250px;
+	padding-left: 20px;
+	color: #6E6E6E;
+	border: 1px solid #E6E6E6
+}
+
+#subscribeNews{
+	margin-top: 10px;
+	height: 50px;
+	width: 250px;
+	background-color: #FE2E2E;
+	color: white;
+	border: none;
+}
+.smsreciveHelper{
+	height: 50px;
+	width: 270px;
+	display: flex;
+}
+#i {
+	height: 50px;
+	padding: 20px 30px 0px 10px;
+
+}
+#popupImg{
+	margin-top: 10px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: #607d8b;
+	color: white;
+	font-weight: 600;
+	line-height: 15px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+#subscribeSMS{
+	margin-top: 10px;
+	height: 50px;
+	width: 250px;
+	color: white;
+	border: none;
+	background-color: #0B3B0B;
+}
+#informSMS{
+	position:absolute;
+	top: 70px;
+	right: -150px;
+	height: 130px;
+	width: 250px;
+	border: 1px solid grey;
+	border-radius: 5%;
+	padding:10px;
+	/*text-align: auto;*/
+	background-color: #ffffff;
+	color: #424242;
+	/*font-size: 20px;*/
+}
+#informSMS p{
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+#main:target {
+	display: block;
+
+
+}
+#main {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+/* END FOOTER */

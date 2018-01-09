@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'viper';
+    src: url('../fonts/viper.eot');
+    src: url('../fonts/viper.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/viper.woff2') format('woff2'),
+         url('../fonts/viper.woff') format('woff'),
+         url('../fonts/viper.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
