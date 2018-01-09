@@ -3,6 +3,7 @@ body{
 	min-width: 320px;
 	/*font-family: "viper", sans-serif;*/
 }
+/*--------------------------------------------------------------------------*/
 /* HEADER*/
 .topic{
 	background: linear-gradient(to right, white 40%, #F5BCA9 100%); 
@@ -40,7 +41,7 @@ body{
 	display: flex;
 }
 /* END HEADER */
-
+/*------------------------------------------------------------------------------------
 /*NAV MENU*/
 #navcontainer{
 	position: relative;
@@ -123,6 +124,14 @@ button#radaButton{
 
 /* END RADA FONDU */
 /*-----------------------------------------------------------
+/* STRATEGY*/
+ul#strategy{
+	list-style: circle black;
+}
+
+/* END STRATEGY
+/*----------------------------------------------------------
+
 /* FOOTER */
 .footersection{
 	display: inline-flex;
