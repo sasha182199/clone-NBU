@@ -1,7 +1,7 @@
 body{
 	font-size: 16px;
 	min-width: 320px;
-	/*font-family: "viper", sans-serif;*/
+	font-family: "Arsenal", sans-serif;
 }
 /*--------------------------------------------------------------------------*/
 /* HEADER*/
@@ -131,6 +131,39 @@ ul#strategy{
 
 /* END STRATEGY
 /*----------------------------------------------------------
+/* HISTORY*/
+p.years{
+	font-size: 15px;
+	color: #0c0;
+	font-weight: 500;
+	text-align: right;
+	margin-right: 10px;
+
+}
+
+div.event {
+	border-left: 2px solid #A4A4A4; 
+	height: 150px;
+	padding-top: 10px;
+}
+div.circle {
+	width: 18px;
+	height: 18px;
+	border: 2px solid #0c0;
+	border-radius: 15px;
+	position: absolute;
+	left: -10px;
+	top: 0px;
+	background-color: white;
+}
+div.eventFirst{
+	border-left: none;
+}
+
+
+
+/* END HISTORY*/
+
 
 /* FOOTER */
 .footersection{
