@@ -2,6 +2,7 @@ body{
 	font-size: 16px;
 	min-width: 320px;
 	font-family: "Arsenal", sans-serif;
+
 }
 /*--------------------------------------------------------------------------*/
 /* HEADER*/
@@ -101,7 +102,7 @@ ul.side_menu a{
 div#members{
 	border-bottom: 1px solid #A4A4A4;
 	padding: 20px 10px;
-	margin: 0px 0px 20px 10px;
+	margin: 0px 0px 5px 10px;
 }
 div.greenline{
 	border-bottom: 2px solid #0c0;
@@ -164,8 +165,7 @@ div.eventFirst{
 
 
 /* END HISTORY*/
-
-
+/*----------------------------------------------------------------------
 /* FOOTER */
 .footersection{
 	display: inline-flex;
@@ -284,5 +284,70 @@ div.eventFirst{
 	height: 100%;
 	
 }
-
 /* END FOOTER */
+/*---------------------------------------------------------------------------
+/* QUESTION FORM*/
+#sendquestion{
+	width: 100%;
+	margin: 10px 10px;
+	padding-left: 13px;
+	border: 1px solid grey;
+	background-color: #cf9;
+}
+#textForButton{
+	height: 100%;
+	padding: 10px;
+}
+#textForButton span{
+	font-family: "Arsenal", sans-serif;
+	margin-left: 15px;
+}
+#buttonBox{
+	height: 100%;
+}
+.questionFormBtn{
+	width: 250px;
+	margin: 5px 0px;
+	padding:5px;
+	border-radius: 0px;
+}
+#sendQuestionBox {
+	width: 100%;
+	margin: 10px 10px;
+	border: 1px solid grey;
+	display: none;
+}
+#sendQuestionBox div, textarea{
+	border: 1px solid grey;
+	margin: 15px;
+	padding: 5px;
+	vertical-align: 
+}
+#sendQuestionBox div:nth-child(3){
+	border: none;
+	margin-top: 0px;
+}
+#sendQuestionBox div:nth-child(4){
+	border: none;
+}
+#sendQuestionBox div input{
+	width: 33%;
+	padding-left: 5px;
+	color: black;
+	border: 1px solid grey;
+}
+#sendForm{
+	border: none;
+	background-color: #0B3B0B;
+	color: white;
+	font-weight: 600;
+	margin: 17px;
+	height: 40px;
+	width: 120px;
+}
+#sendQuestionBox:target{
+	display: block;
+}
+/*.questionFormBtn span{
+	margin: 5px;
+}*/
